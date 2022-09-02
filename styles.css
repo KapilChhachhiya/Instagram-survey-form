@@ -1,0 +1,79 @@
+
+** start of undefined **
+
+body{
+  background:sandybrown;
+padding:auto;
+text-align:left;
+height:auto;
+padding-bottom:0px;
+}
+#title{
+  text-align:center;
+font-family:Tahoma;
+margin-bottom:1px;
+}
+#description{
+  font-family:ariel;
+  font-style:italic;
+  text-align:center;
+  margin-top:1px;
+}
+div{
+  width:80%;
+  height:100%;
+  margin:auto;
+  margin-bottom:0px;
+}
+#survey-form{
+  background-color:rgba(127,0,60,0.7);
+  width:100%;
+  height:auto;
+  border:none;
+  padding-top:25px;
+  padding-bottom:0px;
+}
+.fset{
+  border:none;
+  
+}
+#name-label,#email-label,#number-label,#dropdown-label{
+  display:block;
+}
+#name,#email,#number,#dropdown{
+  display:block;
+  margin:auto;
+  width:100%;
+  margin-bottom:5px;
+}
+input{
+  vertical-align:middle;
+  position:relative;
+  bottom:1px;
+}
+label{
+  display:block;
+}
+.h{
+  font-size:1.1pc;
+  font-family:ariel;
+  margin-bottom:2px;
+}
+#para{
+  margin-top:0;
+  font-family:Tahoma;
+}
+textarea{
+  width:90%;
+  margin:auto;
+}
+#submit{
+  width:90%;
+  background-color:dodgerblue;
+  border:none;
+  margin-left:15px;
+  margin-top:25px;
+}
+
+** end of undefined **
+
