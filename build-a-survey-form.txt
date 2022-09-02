@@ -1,0 +1,212 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Instagram Survey
+      </title>
+      <meta charset="utf-8">
+      <meta name="viewport"
+     content="width=device-width,initial-scale=1.0">
+      <link rel="stylesheet"
+      href="styles.css">
+    </head>
+    <h1 id="title">
+      Instagram Survey Form
+      </h1>
+      <p id="description">
+        Thank you for helping us to improve our platform
+        </p>
+        <div>
+          <form id="survey-form"
+          action="">
+          <fieldset class="fset">
+            <label  
+            id="name-label">
+            Name<input type="text"
+            id="name"
+            placeholder="Your Name" required>
+            </label>
+            <label 
+            id="email-label">
+            Email<input
+            id="email"
+            type="email"
+            placeholder="Your Email"      required>
+            </label>
+            <label 
+            id="number-label">
+            Age<input type="number"
+            id="number"
+            placeholder="Your Age"        
+            min="13" max="110"
+            required>
+            </label>
+            <label 
+            id="dropdown-label">
+            What type best 
+            describes your 
+            account?<select  
+            id="dropdown">
+            <option value="">
+              (Select One)
+              </option>
+              <option 
+      value="personal-account">
+        Personal Account
+            </option>
+            <option
+        value="creator-account">
+        Creator Account
+        </option>
+        <option
+        value="business-account"
+        >
+                Business Account
+                </option>
+            </select>
+            </fieldset>
+        <fieldset class="fset">
+          <h2 class="h">
+            Would you recommend 
+            Instagram to a 
+            friend?</h2>
+            <label>
+              <input  
+              type="radio"
+              value="yes"
+              name="choice">YES
+              </label>
+              <label>
+                <input 
+                type="radio"
+                value="not-sure"
+                name="choice">
+                Not Sure</label>
+                <label>
+                  <input 
+                  type="radio"
+                  value="no"
+                  name="choice">
+                  No</label>
+                 </fieldset>
+          <fieldset class="fset">
+            <h2 class="h">What 
+              would you like us 
+              improve?</h2>
+              <p id="para">(check all that apply)</p>
+              <label>
+                <input 
+                type="checkbox"
+               value="insights">
+                Insights</label>
+                <label>
+                  <input 
+                 type="checkbox"
+                  value="reels">
+                Reels</label>
+                <label>
+                  <input 
+              type="checkbox"
+              value="feeds">
+              Feeds</labels>
+              <label>
+                <input 
+                type="checkbox"
+                value="search">
+                Search</label>
+           </fieldset>
+           <fieldset class="fset">
+             <label>Any suggestions/comments for us?
+            <textarea placeholder="Your comments here..." rows="3" cols="30"
+            ></textarea>
+            </label>
+             </fieldset>
+           <input type="submit"
+           id="submit">
+            </form>
+        </div>
+    <body>
+      </body>
+      </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background:sandybrown;
+padding:auto;
+text-align:left;
+height:auto;
+padding-bottom:0px;
+}
+#title{
+  text-align:center;
+font-family:Tahoma;
+margin-bottom:1px;
+}
+#description{
+  font-family:ariel;
+  font-style:italic;
+  text-align:center;
+  margin-top:1px;
+}
+div{
+  width:80%;
+  height:100%;
+  margin:auto;
+  margin-bottom:0px;
+}
+#survey-form{
+  background-color:rgba(127,0,60,0.7);
+  width:100%;
+  height:auto;
+  border:none;
+  padding-top:25px;
+  padding-bottom:0px;
+}
+.fset{
+  border:none;
+  
+}
+#name-label,#email-label,#number-label,#dropdown-label{
+  display:block;
+}
+#name,#email,#number,#dropdown{
+  display:block;
+  margin:auto;
+  width:100%;
+  margin-bottom:5px;
+}
+input{
+  vertical-align:middle;
+  position:relative;
+  bottom:1px;
+}
+label{
+  display:block;
+}
+.h{
+  font-size:1.1pc;
+  font-family:ariel;
+  margin-bottom:2px;
+}
+#para{
+  margin-top:0;
+  font-family:Tahoma;
+}
+textarea{
+  width:90%;
+  margin:auto;
+}
+#submit{
+  width:90%;
+  background-color:dodgerblue;
+  border:none;
+  margin-left:15px;
+  margin-top:25px;
+}
+
+** end of undefined **
+
